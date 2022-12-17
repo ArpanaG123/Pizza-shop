@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Baumans&family=Fascinate&family=Lato:ital,wght@1,900&family=Lobster&family=Manrope:wght@400;500&family=Open+Sans:wght@400;500;600;700&family=Passions+Conflict&display=swap");
+
+body {
+  background-color: #febe8c;
+}
+.pizza_heading .pizza {
+  color: #b73e3e;
+  font-family: "Lobster", cursive;
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.pizza_heading .com {
+  color: #f49d1a;
+  font-family: "poppins", sans-serif;
+  font-size: 40px;
+}
+
+.pizza_img {
+  width: 70px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 6.5%;
+  left: 36%;
+}
+
+.main-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.base {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#draggable-element1,
+#draggable-element2 {
+  position: relative;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+}
+.base1 {
+  background-image: url("https://5.imimg.com/data5/RV/MJ/MY-16339859/pizza-base-500x500.jpg");
+  background-size: cover;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+.base2 {
+  background-image: url("https://5.imimg.com/data5/TS/FJ/MY-68150548/pizza-base-500x500.jpg");
+  background-size: cover;
+  margin-left: 30%;
+  margin-top: 9%;
+}
+#dropzone {
+  border: 2px solid;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 50%;
+  position: relative;
+  border: 2px dotted maroon;
+  display: flex;
+  margin-top: 5%;
+  background-color: orangered;
+}
+.add1 {
+  background-image: url("https://5.imimg.com/data5/RV/MJ/MY-16339859/pizza-base-500x500.jpg");
+  background-size: cover;
+}
+.add2 {
+  background-image: url("https://5.imimg.com/data5/TS/FJ/MY-68150548/pizza-base-500x500.jpg");
+  background-size: cover;
+}
+.pizza1 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdedaQRf36jmxlWQYS0Og1cqHG2IYO_CKsiw&usqp=CAU");
+  background-size: cover;
+}
+.pizza2 {
+  background-image: url("https://5.imimg.com/data5/KI/LC/GLADMIN-15621787/margerita-pizza-500x500.png");
+  background-size: cover;
+  background-position: center;
+}
+.pizza3 {
+  background-image: url("https://b.zmtcdn.com/data/pictures/chains/8/800318/28c01b6cd6579b395c8b92b61f3fe794.jpg?fit=around|300:273&crop=300:273;*,*");
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+  align-items: center;
+  visibility: hidden;
+}
+li {
+  list-style: none;
+  margin: 40px 20px 20px 20px;
+}
+.li1 {
+  width: 150px;
+  height: 150px;
+  margin-left: 25%;
+  text-align: center;
+  background-image: url("https://media.istockphoto.com/id/1276597176/photo/button-mushrooms.jpg?s=612x612&w=0&k=20&c=ilDpArGu1tDBzSAZR8zxr5VXjet7tb7U7Erx-vsRY4E=");
+  background-size: cover;
+  background-position: center;
+}
+.li2 {
+  width: 120px;
+  height: 120px;
+  margin-top: 30%;
+  background-image: url("https://t4.ftcdn.net/jpg/01/42/73/15/360_F_142731530_ljbrVv7G3ffg2t1R6pDBRtV83fjkCU0o.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.li3 {
+  width: 140px;
+  height: 130px;
+  margin-top: -35%;
+  margin-left: 56%;
+  background-image: url("https://media.istockphoto.com/id/685758012/photo/chopped-tomatoes-on-white-background.jpg?s=612x612&w=0&k=20&c=bdjAJCuTVY6XWmvYRmlaAEZxfecmnIN4euNWSk-s8YE=");
+  background-size: cover;
+  background-position: center;
+}
+
+.right-part-pizzaIngredients {
+  width: 30%;
+  height: 550px;
+  border-radius: 5px;
+  box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.325);
+  background: #fff;
+  position: absolute;
+  right: 40px;
+  top: 20%;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+}
+
+.left-part-pizzaBase {
+  width: 30%;
+  height: 550px;
+  border-radius: 5px;
+  box-shadow: 5px 2px 5px 2px rgb(0 0 0/ 0.6);
+  background: #fff;
+  position: absolute;
+  left: 40px;
+  top: 20%;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+}
+
+#line1 {
+  width: 150px;
+  border: 1.5px solid red;
+  margin-top: -20px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .left-part-pizzaBase {
+    width: 90%;
+    height:450px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px 2px rgb(0 0 0/ 0.6);
+    background: #fff;
+    position: absolute;
+    left:15px;
+    top:110%;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+  }
+
+  .right-part-pizzaIngredients {
+    width:90%;
+    height:450px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.325);
+    background: #fff;
+    position: absolute;
+    right:15px;
+    top: 220%;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+  }
+
+  #dropzone {
+    border: 2px solid;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px dotted maroon;
+    display: flex;
+    margin-top: 10%;
+    background-color: orangered;
+  }
+
+  .pizza_img{
+    display: none;
+  }
+
+}
