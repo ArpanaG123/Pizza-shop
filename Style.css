@@ -202,4 +202,39 @@ li {
     display: none;
   }
 
+  ul {
+    list-style: none;
+    align-items: center;
+    visibility: visible;
+  }
+
+  .li1 {
+    width: 80px;
+    height: 80px;
+    margin-top: 30%;
+    margin-left: 25%;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/id/1276597176/photo/button-mushrooms.jpg?s=612x612&w=0&k=20&c=ilDpArGu1tDBzSAZR8zxr5VXjet7tb7U7Erx-vsRY4E=");
+    background-size: cover;
+    background-position: center;
+  }
+  .li2 {
+    width: 80px;
+    height: 80px;
+    margin-top: 38%;
+    margin-left:5%;
+    background-image: url("https://t4.ftcdn.net/jpg/01/42/73/15/360_F_142731530_ljbrVv7G3ffg2t1R6pDBRtV83fjkCU0o.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .li3 {
+    width: 80px;
+    height: 80px;
+    margin-top: -38%;
+    margin-left: 56%;
+    background-image: url("https://media.istockphoto.com/id/685758012/photo/chopped-tomatoes-on-white-background.jpg?s=612x612&w=0&k=20&c=bdjAJCuTVY6XWmvYRmlaAEZxfecmnIN4euNWSk-s8YE=");
+    background-size: cover;
+    background-position: center;
+  }
+
 }
